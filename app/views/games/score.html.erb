@@ -1,0 +1,10 @@
+<div class="container">
+  <h2>your word:</h2>
+  <div class="border"><%= params["word"] %></div>
+  <br><br>
+  <% if @word_english %>
+  <h4>your word is english</h4>
+  <% else %>
+  <h4>your word is NOT in the english language</h4>
+  <% end %>
+</div>
